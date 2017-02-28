@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Loaner Request" max_length="40" name="x_89842_loaner_req_loaner_request" type="collection">
+    <element extends="task" label="Loaner Request" max_length="40" name="x_89842_loaner_req_loaner_request" sizeclass="7" type="collection">
         <element attributes="barcode" label="Test Barcode" max_length="200" name="test_barcode" type="string"/>
         <element attributes="current_location" label="Test Location" max_length="40" name="test_location" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="sc" label="Depot" mandatory="true" max_length="40" name="u_depot" type="string">
